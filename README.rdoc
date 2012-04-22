@@ -1,0 +1,60 @@
+= omniauth-freeagent
+
+* http://github.com/kickcode/omniauth-freeagent
+
+== DESCRIPTION:
+
+OmniAuth OAuth2 strategy for FreeAgent.
+
+== FEATURES:
+
+Allow authentication via the FreeAgent API using OmniAuth, and if it takes your fancy, Devise too.
+
+== SYNOPSIS:
+
+To use with OmniAuth:
+
+  use OmniAuth::Builder do
+    provider "freeagent", FREEAGENT_CLIENT_ID, FREEAGENT_CLIENT_SECRET
+  end
+
+And with Devise:
+
+  config.omniauth :freeagent, FREEAGENT_CLIENT_ID, FREEAGENT_CLIENT_SECRET
+
+== REQUIREMENTS:
+
+omniauth-freeagent depends upon omniauth, and the base strategy provided in omniauth-oauth2.
+
+== INSTALL:
+
+It's best to add the gem to your Gemfile, but if needed you can install it manually:
+
+  gem install omniauth-freeagent
+
+== CONTRIBUTORS:
+
+Elliott Draper
+
+== LICENSE:
+
+Copyright 2012 Elliott Draper <el@kickcode.com>
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
