@@ -6,7 +6,7 @@
 
 == DESCRIPTION:
 
-OmniAuth OAuth2 strategy for FreeAgent.
+OmniAuth OAuth2 strategy for FreeAgent (https://dev.freeagent.com).
 
 == FEATURES:
 
