@@ -1,5 +1,7 @@
 = omniauth-freeagent
 
+{<img src="https://secure.travis-ci.org/kickcode/omniauth-freeagent.png" />}[http://travis-ci.org/kickcode/omniauth-freeagent]
+
 * http://github.com/kickcode/omniauth-freeagent
 
 == DESCRIPTION:
