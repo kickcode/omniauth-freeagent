@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["el@kickcode.com"]
   gem.description   = %q{OmniAuth OAuth2 strategy for FreeAgent.}
   gem.summary       = %q{OmniAuth OAuth2 strategy for FreeAgent.}
-  gem.homepage      = "https://github.com/kickcode/omniauth-freeagent"
+  gem.homepage      = "http://kickcode.com/playground/omniauth-freeagent"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
