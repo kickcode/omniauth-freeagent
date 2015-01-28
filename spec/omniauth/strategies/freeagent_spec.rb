@@ -18,6 +18,11 @@ describe OmniAuth::Strategies::FreeAgent do
     it 'should have the correct token URL' do
       subject.client.options[:token_url].should == '/v2/token_endpoint'
     end
+
+    it "in the sandbox environment" do
+      @options = {environment: :sandbox}
+      subject.client.site.should == 'https://api.sandbox.freeagent.com'
+    end
   end
 
   describe '#callback_path' do
